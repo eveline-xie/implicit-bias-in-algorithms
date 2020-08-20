@@ -1,18 +1,20 @@
-body, html {
+body,
+html {
   height: 100%;
   margin: 0;
   font: 400 15px/1.8 "Lato", sans-serif;
   color: #777;
 }
 
-.bgimg-1, .bgimg-2, .bgimg-3 {
+.bgimg-1,
+.bgimg-2,
+.bgimg-3 {
   position: relative;
   opacity: 0.65;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 .bgimg-1 {
   background-image: url("https://images.unsplash.com/photo-1566458383719-239ca2d59a37?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80");
@@ -55,30 +57,29 @@ h3 {
 
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
-  .bgimg-1, .bgimg-2, .bgimg-3 {
+  .bgimg-1,
+  .bgimg-2,
+  .bgimg-3 {
     background-attachment: scroll;
   }
 }
 
-.logo{
+.logo {
   width: 45px;
 }
 
-.section{
-  background-color:black;
-  font-size:25px;
+.section {
+  background-color: black;
+  font-size: 25px;
   color: #f7f7f7;
 }
 
-
-
-
-.company1{
-    /* The image used */
+.company1 {
+  /* The image used */
   background-image: url("https://images.unsplash.com/photo-1499612657035-beb4431a3cdb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80");
   opacity: 0.4;
   /* Set a specific height */
-  min-height: 800px; 
+  min-height: 800px;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -87,12 +88,12 @@ h3 {
   background-size: cover;
 }
 
-.company2{
-    /* The image used */
+.company2 {
+  /* The image used */
   background-image: url("https://images.unsplash.com/photo-1566709603326-610ec233ee77?ixlib=rb-1.2.1&auto=format&fit=crop&w=2106&q=80");
   opacity: 0.4;
   /* Set a specific height */
-  min-height: 800px; 
+  min-height: 800px;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -100,5 +101,3 @@ h3 {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-.
