@@ -90,7 +90,7 @@ h3 {
 .company2{
     /* The image used */
   background-image: url("https://images.unsplash.com/photo-1566709603326-610ec233ee77?ixlib=rb-1.2.1&auto=format&fit=crop&w=2106&q=80");
-
+  opacity: 0.3
   /* Set a specific height */
   min-height: 800px; 
 
@@ -100,3 +100,5 @@ h3 {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.
