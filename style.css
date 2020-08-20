@@ -78,7 +78,7 @@ h3 {
   background-image: url("https://images.unsplash.com/photo-1499612657035-beb4431a3cdb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80");
 
   /* Set a specific height */
-  min-height: 500px; 
+  min-height: 800px; 
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
