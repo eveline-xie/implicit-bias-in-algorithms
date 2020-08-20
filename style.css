@@ -59,3 +59,13 @@ h3 {
     background-attachment: scroll;
   }
 }
+
+.logo{
+  width: 45px;
+}
+
+.section{
+  background-color:black;
+  font-size:25px;
+  color: #f7f7f7;
+}
