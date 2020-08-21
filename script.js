@@ -20,7 +20,8 @@
 //   }
 // }
 
-function checkInput() {
+function checkInput(e) {
   var query = document.getElementById("search").value;
-  return window.find(query)
+  window.find(query);
+  e.stopPropagation();
 }
