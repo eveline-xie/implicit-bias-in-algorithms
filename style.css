@@ -115,7 +115,10 @@ h3 {
 
 .about {
   text-align: center;
-  color: white;
-  background-color: black;
+  color: black;
+  background-color: white;
 }
 
+.bolded-text{
+  font-weight: bold;
+}
