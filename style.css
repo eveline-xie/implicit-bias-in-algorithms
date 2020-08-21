@@ -117,6 +117,7 @@ h3 {
   text-align: center;
   color: black;
   background-color: white;
+  position: relative;
 }
 
 .bolded-text{
