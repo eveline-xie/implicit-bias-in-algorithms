@@ -20,25 +20,28 @@
 //   }
 // }
 
-// function checkInput(e) {
+// function checkInput() {
 //   var query = document.getElementById("search").value;
 //   window.find(query);
-//   e.stopPropagation();
+//   setTimeout(() => {
+//     console.log("World!");
+//   }, 5000);
+//   return true;
 // }
 
 // var sel = window.getSelection();
 // sel.collapse(document.body, 0);
 // document.body.offsetHeight;
-var query = document.getElementById("search").value;
+// var query = document.getElementById("search").value;
 // if (window.find(query, true)) {
 //   sel.collapseToEnd();
 // }
-var sel = window.getSelection();
-sel.collapse(document.body, 0);
-document.body.offsetHeight;
-if (window.find(query, true)) {
-  document.execCommand("hiliteColor", false, "FirstColor");
-  while (window.find(query, true)) {
-    document.execCommand("hiliteColor", false, "SecondColor");
-  }
-}
+// var sel = window.getSelection();
+// sel.collapse(document.body, 0);
+// document.body.offsetHeight;
+// if (window.find(query, true)) {
+//   document.execCommand("hiliteColor", false, "FirstColor");
+//   while (window.find(query, true)) {
+//     document.execCommand("hiliteColor", false, "SecondColor");
+//   }
+// }
