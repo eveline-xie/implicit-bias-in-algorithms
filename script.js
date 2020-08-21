@@ -20,8 +20,25 @@
 //   }
 // }
 
-function checkInput(e) {
-  var query = document.getElementById("search").value;
-  window.find(query);
-  e.stopPropagation();
+// function checkInput(e) {
+//   var query = document.getElementById("search").value;
+//   window.find(query);
+//   e.stopPropagation();
+// }
+
+// var sel = window.getSelection();
+// sel.collapse(document.body, 0);
+// document.body.offsetHeight;
+var query = document.getElementById("search").value;
+// if (window.find(query, true)) {
+//   sel.collapseToEnd();
+// }
+var sel = window.getSelection();
+sel.collapse(document.body, 0);
+document.body.offsetHeight;
+if (window.find(query, true)) {
+  document.execCommand("hiliteColor", false, "FirstColor");
+  while (window.find(query, true)) {
+    document.execCommand("hiliteColor", false, "SecondColor");
+  }
 }
