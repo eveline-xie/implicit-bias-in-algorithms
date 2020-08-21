@@ -123,3 +123,8 @@ h3 {
 .bolded-text {
   font-weight: bold;
 }
+
+.contact-form {
+  color: black;
+  text-align: center;
+}
