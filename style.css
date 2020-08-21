@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
 
 body,
 html {
@@ -6,7 +6,7 @@ html {
   margin: 0;
   font: 400 15px/1.8 "Lato", sans-serif;
   color: #777;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
 }
 
 .bgimg-1,
@@ -120,6 +120,6 @@ h3 {
   position: relative;
 }
 
-.bolded-text{
+.bolded-text {
   font-weight: bold;
 }
