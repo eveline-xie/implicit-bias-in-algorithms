@@ -89,10 +89,38 @@
       </h2>
     </div>
 
+    <form name="contact" method="POST" data-netlify="true">
+      <div class="container">
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Name</label>
+          <input type="text" name="name" class="form-control" placeholder="John Doe" />
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Email address</label>
+          <input
+            type="email"
+            name="email"
+            class="form-control"
+            id="exampleFormControlInput1"
+            placeholder="name@example.com"
+          />
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Comments</label>
+          <textarea
+            class="form-control"
+            name="message"
+            id="exampleFormControlTextarea1"
+            rows="3"
+          ></textarea>
+        </div>
+      </div>
+    </form>
+
     <br /><br />
     <div style="position:relative;">
       <div
-        style="color:#ddd;background-color:#282E34;text-align:center;padding:30px 50px;text-align: center;"
+        style="color:#ddd;background-color:#282E34;text-align:center;padding:20px 30px;text-align: center;"
       >
         <p>
           &#169; Hack for the People 2020
