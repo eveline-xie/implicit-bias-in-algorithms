@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Implicit Bias in Algorithms</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="index.html"
+        ><img
+          src="https://cdn.glitch.com/1d542d05-ec21-4488-be00-6a4892cbf02d%2Fsymbol.png?v=1597881978012"
+          class="logo"
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="companies.html">Algorithms</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle active"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Companies & BLM
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#company1">Company 1</a>
+              <a class="dropdown-item" href="#company2">Company 2</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+        <!--         <form class="form-inline my-2 my-lg-0">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Search
+          </button>
+        </form> -->
+      </div>
+    </nav>
+
+    <br /><br />
+    <div class="container">
+      <div class="blm-page-heading">
+        Companies on Black Lives Matter
+      </div>
+      <div class="blm-page-description">
+        Many companies have released generic statements in response to the Black
+        Lives Matter movement. Though we all want to see some real change in the
+        teams that make up these companies, many have simply released solidarity
+        statements responding to the movement, without committing to making
+        actual change within their own company.
+      </div>
+    </div>
+
+    <br /><br /><br />
+
+    <div class="container">
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading">
+            REALTOR.COM
+          </h2>
+
+          <p>
+            <a
+              class="btn btn-primary"
+              data-toggle="collapse"
+              href="#collapseExample"
+              role="button"
+              aria-expanded="false"
+              aria-controls="collapseExample"
+            >
+              See Statement
+            </a>
+          </p>
+          <div class="collapse" id="collapseExample">
+            <div class="card card-body">
+             text
+            </div>
+          </div>
+          <p class="lead"></p>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img
+            class="featurette-image img-fluid mx-auto"
+            src="https://pbs.twimg.com/media/EZh6lP2XkAcsG2s?format=jpg&name=medium"
+            style="width:300px"
+            alt="Generic placeholder image"
+          />
+        </div>
+      </div>
+
+      <br /><br />
+
+      <hr class="featurette-divider" />
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading">
+            Zillow
+          </h2>
+
+          <p>
+            <a
+              class="btn btn-primary"
+              data-toggle="collapse"
+              href="#second"
+              role="button"
+              aria-expanded="false"
+              aria-controls="collapseExample"
+            >
+              See Statement
+            </a>
+          </p>
+          <div class="collapse" id="second">
+            <div class="card card-body">
+              text
+            </div>
+          </div>
+          <p class="lead"></p>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img
+            class="featurette-image img-fluid mx-auto"
+            src="https://pbs.twimg.com/media/EaQC4wCU0AE2pFB?format=png&name=900x900"
+            style="width:300px"
+            alt="Generic placeholder image"
+          />
+        </div>
+      </div>
+
+      <br /><br />
+
+      <hr class="featurette-divider" />
+
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading">
+            REALTOR.COM
+          </h2>
+
+          <p>
+            <a
+              class="btn btn-primary"
+              data-toggle="collapse"
+              href="#third"
+              role="button"
+              aria-expanded="false"
+              aria-controls="collapseExample"
+            >
+              See Statement
+            </a>
+          </p>
+          <div class="collapse" id="third">
+            <div class="card card-body">
+              text
+            </div>
+          </div>
+          <p class="lead"></p>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img
+            class="featurette-image img-fluid mx-auto"
+            src="https://ssl.cdn-redfin.com/v328.3.0/images/logos/redfin-logo-square-red-1200.png"
+            style="width:300px"
+            alt="Generic placeholder image"
+          />
+        </div>
+      </div>
+    </div>
+
+    <br /><br />
+    <div class="container page-items">
+      <nav aria-label="Page navigation example">
+        <ul class="pagination">
+          <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item"><a class="page-link" href="#">Next</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <!--     footer -->
+    <footer style="position:relative;">
+      <div
+        style="color:#ddd;background-color:#282E34;text-align:center;padding:30px 50px;text-align: center;"
+      >
+        <p>
+          &#169; Hack for the People 2020
+        </p>
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
