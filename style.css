@@ -120,26 +120,26 @@ h3 {
   text-align: center;
 }
 
-.blm-page-description{
+.blm-page-description {
   text-align: center;
   color: black;
   font-family: "Roboto Mono", monospace;
   font-size: 20px;
 }
 
-.blm-page-heading{
+.blm-page-heading {
   text-align: center;
   font-size: 40px;
 }
 
-.page-items{
+.page-items {
   text-align: center;
 }
 
-.img{
-  opacity: 1.0;
+.img {
+  opacity: 1;
 }
 
-.img:hover{
+.img:hover {
   opacity: 0.65;
 }
