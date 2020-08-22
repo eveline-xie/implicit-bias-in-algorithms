@@ -135,3 +135,11 @@ h3 {
 .page-items{
   text-align: center;
 }
+
+.img{
+  opacity: 1.0;
+}
+
+.img:hover{
+  opacity: 0.65;
+}
