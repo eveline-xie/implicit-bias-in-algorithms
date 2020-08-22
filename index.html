@@ -58,22 +58,26 @@
             <a class="nav-link" href="contact.html">Contact</a>
           </li>
         </ul>
-        <!--         <form class="form-inline my-2 my-lg-0">
+                <form class="form-inline my-2 my-lg-0">
           <input
             class="form-control mr-sm-2"
             type="search"
             placeholder="Search"
             aria-label="Search"
             id="search"
+                 ref="input"
+           title="Site Search"
+           v-on:keyup.13="search(text)"
+           v-model="text"
           />
           <button
-            class="btn btn-outline-success my-2 my-sm-0"
+            class="btn btn-outline-success my-2 my-sm-0 "
             type="submit"
             onclick="checkInput()"
           >
             Search
           </button>
-        </form> -->
+        </form>
       </div>
     </nav>
 
