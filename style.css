@@ -141,5 +141,5 @@ h3 {
 }
 
 .img:hover {
-  opacity: 0.65;
+  filter: grayscale(100%);
 }
