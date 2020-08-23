@@ -45,5 +45,3 @@
 //     document.execCommand("hiliteColor", false, "SecondColor");
 //   }
 // }
-
-
